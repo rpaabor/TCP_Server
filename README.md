@@ -1,9 +1,12 @@
 # TCP_Server and TCP client.
 
-This is a example of TCP server and client,
-To use, start server and set it up, you dont have to set port and buffer.
-Start Client, dont set ipadress local adress will be used.
+This is a example of TCP server and client.
 
-In current configuration it uses Blockchain to verify that message que is immutable.
-There is some other features in the server like a login service, that is not fully implemented.
-This is not for production use, its only a example of how it can be done.
+There is some other features in the server like a login service, that is not implemented in current version.
+I think i hawe done a couple of diffrent modifications to this solution, and the current one is for blockchain,
+to verify that message chain is immutable.
+
+usage.
+I use VisualStudio and build application, start server just hit enter on settings.
+Start client, u can start as many as u like hit enter when it promts for settings.
+Try sending messages from clients, they will be added to the current blockchain so full history is avalible at all time.
