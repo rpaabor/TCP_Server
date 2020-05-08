@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP_Server", "TCP_Server\TCP_Server.csproj", "{C6DED766-133B-44C2-A6F6-E119B13CD56D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client3\Client.csproj", "{211DE093-9EB3-4AA1-AF15-01EC48A9B974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientDll", "ClientDll\ClientDll.csproj", "{8270B047-8BB0-46AC-908E-8A7F8688D1D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockChain", "BlockChain\BlockChain.csproj", "{01BFEFDE-E6B1-4836-9134-B47F57E3E29A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6DED766-133B-44C2-A6F6-E119B13CD56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DED766-133B-44C2-A6F6-E119B13CD56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DED766-133B-44C2-A6F6-E119B13CD56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DED766-133B-44C2-A6F6-E119B13CD56D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211DE093-9EB3-4AA1-AF15-01EC48A9B974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211DE093-9EB3-4AA1-AF15-01EC48A9B974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211DE093-9EB3-4AA1-AF15-01EC48A9B974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211DE093-9EB3-4AA1-AF15-01EC48A9B974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8270B047-8BB0-46AC-908E-8A7F8688D1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8270B047-8BB0-46AC-908E-8A7F8688D1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8270B047-8BB0-46AC-908E-8A7F8688D1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8270B047-8BB0-46AC-908E-8A7F8688D1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BFEFDE-E6B1-4836-9134-B47F57E3E29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BFEFDE-E6B1-4836-9134-B47F57E3E29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BFEFDE-E6B1-4836-9134-B47F57E3E29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BFEFDE-E6B1-4836-9134-B47F57E3E29A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDF14985-01DE-4FA5-BB05-58274D769B0E}
+	EndGlobalSection
+EndGlobal
